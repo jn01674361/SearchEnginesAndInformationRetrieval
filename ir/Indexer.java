@@ -81,9 +81,6 @@ public class Indexer {
                         while ( tok.hasMoreTokens() ) {
                             String token = tok.nextToken();
                             insertIntoIndex( docID, token, offset++ );
-                            // System.err.println("doc id" + docID);
-                            // System.err.println("token" + token);
-                            // System.err.println("offset" + offset);
                             
                         }
                         // System.err.println("more tokens" + tok.hasMoreTokens());

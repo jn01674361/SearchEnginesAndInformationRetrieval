@@ -59,18 +59,6 @@ public class Searcher {
                             break;
                         }                        
                         pj++;
-                        // while(l.size()>0 &&  Math.abs(l.get(0) -pos1)>k ){
-                        //     System.err.println("IN WHILE LOOP");
-                        //     System.err.println(l.size());
-                        //     l.remove(0);
-                        // }
-                        // for(int ll=0; ll<l.size();ll++){
-                        //     ppnew = new ArrayList<Integer>();
-                        //     ppnew.add(pos1);
-                        //     ppnew.add(l.get(ll));
-                            
-                        //     answer.addToPostingsList(p1.getId(), ppnew);;
-                        // }
                     }
                     pi++;
                 }; 
@@ -84,8 +72,6 @@ public class Searcher {
                 j++;
             }
         }
-        System.err.println("RETURNING POSTINGS");
-        System.err.println(answer.size());
         return answer;
     }
 
@@ -183,13 +169,11 @@ public class Searcher {
         P2 = new PostingsList();
 
         ArrayList<String> terms = query.getTerms();
-        System.err.println("query length" + terms.size());        
 
         P1 = index.getPostings(terms.get(0));
 
         //INTERSECTION_QUERY, PHRASE_QUERY, RANKED_QUERY 
-        System.err.println("query tyoe");
-        System.err.println(queryType);
+
         if(queryType == QueryType.INTERSECTION_QUERY){
             for(int i=1; i < terms.size(); i++){
                 
@@ -202,9 +186,6 @@ public class Searcher {
             for(int i=1; i < terms.size(); i++){
                     
                 P2 = index.getPostings(terms.get(i));
-                System.err.println("ABOUT TO DO POSITIONAL INTERSECT");
-                System.err.println("P2");
-                System.err.println(P2);
                 P1 = PositionalIntersect(P1, P2, 1);
                 
             }
