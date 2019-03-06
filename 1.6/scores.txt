@@ -1,0 +1,65 @@
+---------------------------------------------------------------------------------------------------------------
+
+"Info about the education in Mathematics on a graduate level at UC Davis"
+
+QUERY_ID=5 DOC_ID=Private_Tutoring RELEVANCE_SCORE=0
+
+p = 0/1 = 0
+r = 0/100 = 0
+
+---------------------------------------------------------------------------------------------------------------
+
+"education Mathematics graduate level UC Davis"
+
+QUERY_ID=2 DOC_ID=Private_Tutoring RELEVANCE_SCORE=0
+QUERY_ID=2 DOC_ID=Graduate_Groups RELEVANCE_SCORE=1
+QUERY_ID=2 DOC_ID=UCD_Honors_and_Prizes.f RELEVANCE_SCORE=0
+QUERY_ID=2 DOC_ID=Candidate_Statements RELEVANCE_SCORE=0
+
+p = 1/4 =0.25
+r = 1/100 = 0.01
+
+---------------------------------------------------------------------------------------------------------------
+
+"mathematics graduate degree uc davis"
+
+QUERY_ID=3 DOC_ID=Private_Tutoring RELEVANCE_SCORE=0
+QUERY_ID=3 DOC_ID=UC_Davis_English_Department RELEVANCE_SCORE=0
+QUERY_ID=3 DOC_ID=What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology RELEVANCE_SCORE=2
+QUERY_ID=3 DOC_ID=UCD_Honors_and_Prizes RELEVANCE_SCORE=0
+QUERY_ID=3 DOC_ID=Statistics RELEVANCE_SCORE=3
+QUERY_ID=3 DOC_ID=Wildlife%2C_Fish%2C_and_Conservation_Biology RELEVANCE_SCORE=0
+QUERY_ID=3 DOC_ID=Mathematics RELEVANCE_SCORE=3
+QUERY_ID=3 DOC_ID=Graduate_Groups RELEVANCE_SCORE=1
+
+p = 4/8 = 0.5
+r = 4/100 = 0.04
+
+---------------------------------------------------------------------------------------------------------------
+
+"mathematics degree"
+
+QUERY_ID=4 DOC_ID=UC_Davis_English_Department RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=AndrewBroz RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=Joanne_Moldenhauer RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=Private_Tutoring RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=What_I_Wish_I_Knew...Before_Coming_to_UC_Davis_Entomology RELEVANCE_SCORE=2
+QUERY_ID=4 DOC_ID=Sierra_Henderson RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=Statistics RELEVANCE_SCORE=3
+QUERY_ID=4 DOC_ID=Wildlife%2C_Fish%2C_and_Conservation_Biology RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=Mathematics RELEVANCE_SCORE=3
+QUERY_ID=4 DOC_ID=Graduate_Groups RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=All%C3%A9gre_Apartments RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=Town_History RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=TimJarrat RELEVANCE_SCORE=3
+QUERY_ID=4 DOC_ID=Davis_Math_Tutoring RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=PatrickDragon RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=Mechanical_and_Aeronautical_Engineering RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=BarnabasTruman RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=Fiber_and_Polymer_Science RELEVANCE_SCORE=1
+QUERY_ID=4 DOC_ID=UCD_Honors_and_Prizes.f RELEVANCE_SCORE=0
+QUERY_ID=4 DOC_ID=document_translated RELEVANCE_SCORE=0
+
+p = 12/20 = 0.6
+r = 12/100 = 0.12
+---------------------------------------------------------------------------------------------------------------

@@ -1,0 +1,23 @@
+precision p = (number of returned docs that are also relevant)/(number of returned docs)
+
+recall r = (number of returned docs that are also relevant)/(number of relevant docs)
+
+number of returned docs = 22
+number of irrelevant docs that are returned = 8
+number of returned docs that are also relevant = 22 - 8 = 14
+
+number of relevant docs = 100
+
+precision = 14/22 ~ 0.64
+recall = 14/100 = 0.14
+
+
+Precision and recall
+
+If a search engine returns a single document that is relevant, this will give p=1. So the precision is high, 
+but if there's 1000 more relevant documents in the corpus that weren't returned, the engine is still not 
+performing well, which is why the recall is needed as a complementary metric to the precision.
+
+On the other hand, if a search engine returned every single document in the corpus, then all the relevant 
+documents will be returned, which will give r=1. So the recall is high, but there's many irrelevant documents
+returned, which is why the precision metric is necessary to complement the recall.
